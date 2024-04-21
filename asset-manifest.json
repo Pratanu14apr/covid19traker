@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/covid19traker/static/css/main.a3053dc8.css",
+    "main.js": "/covid19traker/static/js/main.fc40b904.js",
+    "static/js/453.f8d52d47.chunk.js": "/covid19traker/static/js/453.f8d52d47.chunk.js",
+    "index.html": "/covid19traker/index.html",
+    "main.a3053dc8.css.map": "/covid19traker/static/css/main.a3053dc8.css.map",
+    "main.fc40b904.js.map": "/covid19traker/static/js/main.fc40b904.js.map",
+    "453.f8d52d47.chunk.js.map": "/covid19traker/static/js/453.f8d52d47.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3053dc8.css",
+    "static/js/main.fc40b904.js"
+  ]
+}
