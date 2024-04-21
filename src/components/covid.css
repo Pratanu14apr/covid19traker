@@ -1,0 +1,100 @@
+section {
+  padding: 20px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section h1 {
+  color: #fff;
+  font-size: 25px;
+  border-bottom: 3px solid #fff;
+  margin-bottom: 10px;
+}
+.title-container {
+  padding: 10px;
+  border: 2px solid red;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+section > div > h2 {
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+}
+
+section ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+section ul .card {
+  list-style: none;
+  flex-basis: 27%;
+  margin-bottom: 50px;
+}
+.card-small {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.card-small:hover {
+  background-color: lightblue; /* Change background color on hover */
+  transform: scale(1.05); /* Scale up slightly on hover */
+}
+.card-title > span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  background-color: transparent;
+  margin-right: 5px;
+}
+.card-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 25px;
+  background-color: transparent;
+}
+.card-value {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 30px;
+  background-color: transparent;
+  text-shadow: 4px 6px 2px #000;
+  text-align: center;
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 600px) {
+  section ul .card {
+    flex-basis: 100%;
+  }
+  section > div > h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+}
+
+/* For tablets and larger devices */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  section ul .card {
+    flex-basis: 48%;
+  }
+}
+
+/* For larger screens */
+@media only screen and (min-width: 1025px) {
+  section ul .card {
+    flex-basis: 31%;
+  }
+}
